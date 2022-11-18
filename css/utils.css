@@ -9,6 +9,9 @@ html {
     scroll-behavior: smooth;
 }
 /*? UTILS */
+.brd {
+    border: 2px dashed red;
+}
 .pt-115 {
     padding-top: 115px;
 }
