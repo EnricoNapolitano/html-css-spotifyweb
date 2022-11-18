@@ -10,12 +10,19 @@
     background-color: black;
     width: 50px;
     min-height: calc(100vh - 90px);
+    float:left;
+    position: fixed;
+    top:0;
+    left:0;
 }
 /** HEADER */
 .main-header {
     background-color: rgba(0,0,0,0.8);
+    width: calc(100% - 50px);
     height: 90px;
-    flex-grow: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 /** FOOTER */
 footer  {

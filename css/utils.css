@@ -9,6 +9,12 @@ html {
     scroll-behavior: smooth;
 }
 /*? UTILS */
+.pt-115 {
+    padding-top: 115px;
+}
+.pb-115 {
+    padding-bottom: 115px;
+}
 .flex {
     display: flex;
 }
