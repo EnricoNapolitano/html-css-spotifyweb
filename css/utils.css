@@ -12,6 +12,9 @@ html {
 .brd {
     border: 2px dashed red;
 }
+.mr-30 {
+    margin-right: 30px;
+}
 .pt-115 {
     padding-top: 115px;
 }
@@ -20,4 +23,16 @@ html {
 }
 .flex {
     display: flex;
+}
+.direction-col {
+    flex-direction: column;
+}
+.jc-end {
+    justify-content: end;
+}
+.jc-btwn {
+    justify-content: space-between;
+}
+.ai-center {
+    align-items: center;
 }

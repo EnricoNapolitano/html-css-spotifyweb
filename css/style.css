@@ -11,6 +11,17 @@
     flex: 0 0 50px;
     min-height: calc(100vh - 90px);
 }
+.sidebar > .icon {
+    width: 50px;
+}
+.sidebar .icon > div {
+    width: 35px;
+    height: 35px;
+}
+.sidebar .icon > .playlist {
+    display: none;
+    color:white;
+}
 /** CONTAINER */
 .container {
     width: 100%;
@@ -23,6 +34,10 @@
     top: 0;
     left: 50px;
     right: 0;
+}
+.main-btn {
+    width: 220px;
+    height: 45px;
 }
 /** FOOTER */
 footer  {

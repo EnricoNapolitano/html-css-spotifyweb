@@ -1,0 +1,14 @@
+/** SM SCREEN */
+@media screen and (min-width: 576px) {
+    /* SIDEBAR */
+    .sidebar {        
+        flex: 0 0 100px;
+    }
+    .sidebar .icon > .playlist {
+        display: block;
+    }
+    /* MAIN HEADER */
+    .main-header {
+        left: 100px;
+    }
+}
