@@ -21,6 +21,9 @@ html {
 .wrap{
     flex-wrap: wrap;
 }
+.g-10 {
+    gap: 10px;
+}
 .direction-col {
     flex-direction: column;
 }
