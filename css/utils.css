@@ -15,17 +15,17 @@ html {
 .mr-30 {
     margin-right: 30px;
 }
-.pt-115 {
-    padding-top: 115px;
-}
-.pb-115 {
-    padding-bottom: 115px;
-}
 .flex {
     display: flex;
 }
+.wrap{
+    flex-wrap: wrap;
+}
 .direction-col {
     flex-direction: column;
+}
+.jc-center {
+    justify-content: center;
 }
 .jc-end {
     justify-content: end;
@@ -35,4 +35,7 @@ html {
 }
 .ai-center {
     align-items: center;
+}
+.ai-stretch {
+    align-items: stretch;
 }

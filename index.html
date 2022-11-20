@@ -16,12 +16,14 @@
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <!-- tite & favicon -->
+    <!-- title & favicon -->
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <title>Spotify</title>
 </head>
 <body>
     <main class="flex">
+        <!--* MAIN COLUMN LEFT -->
+        <!-- SIDEBAR -->
         <nav class="sidebar flex direction-col jc-btwn ai-center brd">
             <div class="icon flex direction-col jc-btwn ai-center brd">
                 <div class="logo brd"></div>
@@ -47,11 +49,52 @@
                 <div class="account brd"></div>
             </div>
         </nav>
-        <div class="container brd">
+        <!--* MAIN COLUMN RIGHT -->
+        <div class="content-wrap brd">
+            <!-- HEADER -->
             <header class="main-header flex jc-end ai-center brd">
                 <div class="main-btn mr-30 brd">Effetta l'upgrade</div>
             </header>
-            <div class="content pt-115 pb-115 brd"></div>
+            <!-- CONTENT -->
+            <section class="content brd">
+                <!-- MENU -->
+                <nav class="menu">
+                    <ul class="flex jc-center wrap">
+                        <li>IN EVIDENZA</li>
+                        <li>PODCAST</li>
+                        <li>CLASSIFICHE</li>
+                        <li>GENERI E MOOD</li>
+                        <li>NUOVE USCITE</li>
+                        <li>SCOPRI</li>
+                    </ul>
+                </nav>
+                <!-- RECENTLY PLAYED -->
+                <section>
+                  <h2>Recently played</h2>
+                  <div class="recent playlist flex wrap">
+                      <div class="brd"></div>
+                      <div class="brd"></div>
+                      <div class="brd"></div>
+                      <div class="brd"></div>
+                      <div class="brd"></div>
+                      <div class="brd"></div>
+                  </div>
+                </section>
+                <section>
+                    <h2>Creato per John Doe</h2>
+                    <div class="generative playlist flex wrap">
+                        <div class="brd"></div>
+                        <div class="brd"></div>
+                    </div>
+                </section>
+                <section>
+                    <h2>Artisti più popolari</h2>
+                    <div class="popoular playlist flex wrap">
+                        <div class="brd"></div>
+                        <div class="brd"></div>
+                    </div>
+                </section>
+            </section>
         </div>
     </main>
     <footer class="flex jc-btwn ai-center brd">
