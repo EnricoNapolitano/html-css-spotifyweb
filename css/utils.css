@@ -54,4 +54,13 @@ html {
 .ai-stretch {
     align-items: stretch;
 }
-
+/* UI */
+.btn {
+    border: 1px solid white;
+    border-radius: 40px;
+}
+.underline {
+    border: 2px solid var(--custom-green);
+    width: 50px;
+    margin: 5px auto;
+}
