@@ -21,9 +21,8 @@
     <title>Spotify</title>
 </head>
 <body>
-    <main class="flex">
-        <!--* MAIN COLUMN LEFT -->
-        <!-- SIDEBAR -->
+    <div class="flex">
+        <!--* SIDEBAR -->
         <nav class="sidebar flex direction-col jc-btwn ai-center brd">
             <div class="icon flex direction-col jc-btwn ai-center brd">
                 <div class="logo brd"></div>
@@ -49,8 +48,8 @@
                 <div class="account brd"></div>
             </div>
         </nav>
-        <!--* MAIN COLUMN RIGHT -->
-        <div class="content-wrap brd">
+        <!--* MAIN: COLUMN RIGHT -->
+        <main class="content-wrap brd">
             <!-- HEADER -->
             <header class="main-header flex jc-end ai-center brd">
                 <div class="main-btn mr-30 brd">Effetta l'upgrade</div>
@@ -72,9 +71,21 @@
                 <section>
                   <h2>Recently played</h2>
                   <div class="recent playlist flex g-10 wrap">
-                      <div class="brd"></div>
-                      <div class="brd"></div>
-                      <div class="brd"></div>
+                      <div class="brd">
+                        <img src="img/metal_lifting.jpg" alt="metal cover">
+                        <h3>Heavy metal</h3>
+                        <p>subtitle</p>
+                      </div>
+                      <div class="brd">
+                        <img src="img/stranger.jpeg" alt="stranger things soundtrack">
+                        <h3>Stranger Things Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                        <p>Kyle Dixon & Michael Stein</p>
+                      </div>
+                      <div class="brd">
+                        <img src="img/aquietplace.jpeg" alt="musica 'a quite place' di Marco Beltrami">
+                        <h3>A quite place</h3>
+                        <p>Subtitle</p>
+                      </div>
                       <div class="brd"></div>
                       <div class="brd"></div>
                       <div class="brd"></div>
@@ -95,8 +106,8 @@
                     </div>
                 </section>
             </section>
-        </div>
-    </main>
+        </main>
+    </div>
     <footer class="flex jc-btwn ai-center brd">
         <div class="song-info brd">
             <div></div>
