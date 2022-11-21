@@ -7,6 +7,7 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 /* ? CUSTOM PROPRIERTIES */
 /* COLOR PALETTE */
@@ -15,6 +16,7 @@ html {
     --custom-dark-grey: #282828;
     --custom-grey: #6b6b6b;
     --custom-light-grey: #808080;
+    --custom-bar-grey: #c1c1c1;
     --custom-green: #adff2f;
 }
 /** GENERICS */
@@ -51,7 +53,7 @@ section > div:first-child {
 .sidebar {
     background-color: black;
     color: var(--custom-grey);
-    height: calc(100vh - 90px);
+    height: calc(100vh - 80px);
     flex: 0 0 50px;
 }
 .sidebar h4, .sidebar h3 {
@@ -108,7 +110,7 @@ section > div:first-child {
 /* SECTION CONTENT */
 section.content {
     padding: 20px 20px 50px;
-    height: calc(100vh - 190px);
+    height: calc(100vh - 170px);
     overflow: auto;
 }
 /* MENU */
@@ -131,13 +133,28 @@ section.content {
     padding-bottom: 0;
 }
 /** FOOTER */
-footer  {
+footer {
     background-color: var(--custom-dark-grey);
     height: 90px;
 }
-footer > div {
-    width: 250px;
-    height: 80px;
+footer .col {
+    width: calc(100% / 3)
+}
+/* SONG INFO */
+.song-info {
+    padding-left: 5px;
+}
+.song-info .icon {
+    color: var(--custom-light-grey);
+    padding-left: 10px;
+}
+.song-info figure {
+    width: 50px;
+    height: 50px;
+}
+/* SONG COMMAND */
+footer span {
+    font-size: 10px;
 }
 footer p {
     padding-top: 0;
@@ -145,8 +162,12 @@ footer p {
 footer img {
     width: 100%;
 }
-footer .song-info figure {
-    width: 50px;
-    height: 50px;
+footer .song-command i {
+    font-size: 15px;
 }
-
+footer .song-command .fa-circle-play {
+    font-size: 30px;
+}
+footer .song-volume * {
+    margin-right: 8px;
+}

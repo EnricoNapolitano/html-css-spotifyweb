@@ -182,35 +182,55 @@
             </section>
         </main>
     </div>
-    <footer class="flex jc-btwn ai-center brd">
-        <div class="song-info flex jc-btwn ai-center brd">
-            <div class="flex ai-center g-15">
-                <figure>
-                    <img src="img/sinister.jpeg" alt="canzone sinister">
-                </figure>
-                <div class="song-name">
-                    <h4>Sinister</h4>
-                    <p>
-                        Brano Nome
-                    </p>
+    <footer class="flex jc-btwn ai-center">
+        <div class="col">
+            <div class="song-info flex jc-start ai-center">
+                <div class="content flex ai-center g-15">
+                    <figure>
+                        <img src="img/sinister.jpeg" alt="canzone sinister">
+                    </figure>
+                    <div class="song-name">
+                        <h4>Sinister</h4>
+                        <p>
+                            Brano Nome
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="icon">
-                <div>
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div>
-                    <i class="fa-regular fa-folder"></i>
+                <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-folder"></i>
                 </div>
             </div>
         </div>
-        <div class="song-command brd">
-            <div></div>
-            <div></div>
+        <div class="col">
+            <div class="song-command flex direction-col ai-center g-8">
+                <div class="icon-command flex wrap ai-center g-15">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+                <div class="bar-wrap flex jc-around ai-center">
+                    <span>0:25</span>
+                    <div class="bar">
+                        <div class="inside bar"></div>
+                    </div>
+                    <span>4:35</span>
+                </div>
+            </div>
         </div>
-        <div class="song-volume brd">
-            <div></div>
-            <div></div>
+        <div class="col">
+            <div class="song-volume flex jc-end ai-center">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-display"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div class="flex">
+                    <div class="bar volume">
+                        <div class="inside bar volume"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

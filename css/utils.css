@@ -44,6 +44,9 @@
 .direction-col {
     flex-direction: column;
 }
+.jc-start {
+    justify-content: start;
+}
 .jc-center {
     justify-content: center;
 }
@@ -52,6 +55,9 @@
 }
 .jc-btwn {
     justify-content: space-between;
+}
+.jc-around{
+    justify-content: space-around;
 }
 .ai-start {
     align-items: flex-start;
@@ -82,4 +88,27 @@
     height: 50px;
     margin-left: -20px;
     margin-right: 16px;
+}
+.bar-wrap  {
+    width: 100%;
+}
+.bar {
+    display: inline-block;
+    background-color: var(--custom-grey);
+    width: 60%;
+    height: 5px;
+    border-radius: 10px;
+    position: relative;
+}
+.bar.inside {
+    background-color: var(--custom-bar-grey);
+    width: 30%;
+    position: absolute;
+    left: 0;
+}
+.bar.volume {
+    width: 70px;
+}
+.bar.inside.volume {
+    width: 30px;
 }

@@ -1,4 +1,5 @@
 /** SM SCREEN */
+/* SM SCREEN */
 @media screen and (min-width: 576px) {
     /* SIDEBAR */
     .sidebar {        
@@ -35,15 +36,34 @@
     .sidebar .download p {
         display: block;
     }
+    /** FOOTER */
+    /* SONG INFO */
+    .song-info .content {
+        width: 180px;
+    }
     /* UI UTILS */
     .underline-170 {
         display: block;
     }
 }
-
+/* MD SCREEN */
 @media screen and (min-width: 768px) {
-    footer .icon > div {
-        display: inline-block;
-        padding: 5px;
+    /** FOOTER */
+    .song-info {
+        flex: 0 1 250px;
+    }
+    .song-info .icon i:first-child {
+        padding-right: 10px;
+    }
+    /* UTILS */
+    .bar {
+        width: 70%;
+    }
+}
+/* XL SCREEN */
+@media screen and (min-width: 1200px) {
+    /* UTILS */
+    .bar {
+        width: 85%;
     }
 }
