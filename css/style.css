@@ -62,6 +62,10 @@ section > div:first-child {
 }
 .sidebar .icon .pic {
     width: 25px;
+    filter: brightness(0.8);
+}
+.sidebar .icon .logo {
+    filter: brightness(1);
 }
 .logo a:last-child {
     display: none;
@@ -96,7 +100,7 @@ section > div:first-child {
 }
 /* HEADER */
 .main-header {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.3);
     height: 90px;
     position: sticky;
     top: 0;
