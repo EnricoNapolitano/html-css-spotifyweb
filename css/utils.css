@@ -72,3 +72,9 @@
     width: 190px;
     margin: 10px auto 0;
 }
+.left-line {
+    border-left: 4px solid var(--custom-green);
+    height: 50px;
+    margin-left: -20px;
+    margin-right: 20px;
+}
