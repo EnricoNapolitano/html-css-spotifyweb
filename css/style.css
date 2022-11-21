@@ -58,6 +58,7 @@ section > div:first-child {
     width: 50px;
 }
 .sidebar .icon > div {
+    text-align: center;
     width: 35px;
     height: 35px;
 }
@@ -67,6 +68,12 @@ section > div:first-child {
 }
 .sidebar .playlist li {
     padding: 15px 0;
+}
+.download img {
+    width: 60%;
+}
+.profile.rounded {
+    background-color: var(--custom-grey);
 }
 /** MAIN */
 .content-wrap {

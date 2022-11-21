@@ -33,6 +33,9 @@ html {
 .wrap{
     flex-wrap: wrap;
 }
+.g-8 {
+    gap: 8px;
+}
 .g-15 {
     gap: 15px;
 }
