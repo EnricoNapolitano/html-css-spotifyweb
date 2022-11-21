@@ -13,8 +13,8 @@
     <!-- link to font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- link to css outlook -->
-    <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/media.css">
     <!-- title & favicon -->
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
@@ -23,40 +23,62 @@
 <body>
     <div class="flex">
         <!--* SIDEBAR -->
-        <nav class="sidebar flex direction-col jc-btwn ai-center brd">
-            <div class="icon flex direction-col g-8 jc-btwn ai-center brd">
-                <div class="logo brd">
-                    <img src="img/logo-small.svg" alt="logo">
+        <nav class="sidebar flex direction-col jc-btwn brd">
+            <div class="icon flex direction-col g-8 jc-btwn mt-10 brd">
+                <div class="flex ai-center brd">
+                    <figure class="pic logo">
+                        <a href="#"><img src="img/logo-small.svg" alt="logo"></a> 
+                        <a href="#"><img src="img/logo.svg" alt="logo"></a>
+                    </figure>
+                </div>                
+                <div class="flex ai-center brd">
+                    <figure class="pic home">
+                        <img src="img/home.svg" alt="icona home">
+                    </figure>
+                    <h4 class="white">Home</h4>
+                </div>                
+                <div class="flex ai-center brd">
+                    <figure class="pic searcg">
+                        <img src="img/search.svg" alt="icona cerca">
+                    </figure>
+                    <h4>Cerca</h4>
                 </div>
-                <div class="home brd">
-                    <img src="img/home.svg" alt="icona home">
+                <div class="flex ai-center brd">
+                    <figure class="pic library">
+                        <img src="img/libreria.svg" alt="icona libreria">
+                    </figure>
+                    <h4>La tua libreria</h4>
                 </div>
-                <div class="search brd">
-                    <img src="img/search.svg" alt="icona search">
-                </div>
-                <div class="library brd">
-                    <img src="img/libreria.svg" alt="icona libreria">
-                </div>
-                <div class="playlist">
-                    <h2>PLAY LIST</h2>
+                <div class="songs-list">
+                    <h3 class="white">PLAY LIST</h3>
                     <ul>
-                        <li>test</li>
-                        <li>test</li>
-                        <li>test</li>
-                        <li>test</li>
-                        <li>test</li>
-                        <li>test</li>
-                        <li>test</li>
-                        <li>test</li>
+                        <li class="flex g-8">
+                            <div class="plus flex jc-center ai-center"><i class="fa-solid fa-plus"></i></div>
+                            <p>Crea Playlist</p>
+                        </li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
                     </ul>
                 </div>
             </div>
-            <div class="icon flex direction-col jc-btwn ai-center brd brd">
-                <div class="download brd">
-                    <img src="img/download.svg" alt="icona download">
+            <div class="icon flex direction-col jc-btwn ai-center brd">
+                <div class="download flex ai-center">
+                    <figure class="flex brd">
+                        <img src="img/download.svg" alt="icona download">
+                    </figure>
+                    <p>Installa app</p>
                 </div>
-                <div class="profile rounded brd">
-                    <img src="img/profile.svg" alt="icona profilo">
+                <div class="underline-190"></div>
+                <div class="flex g-8 ai-center">
+                    <div class="profile rounded brd">
+                        <img src="img/profile.svg" alt="icona profilo">
+                    </div>
+                    <h3 class="white">John Doe</h3>
                 </div>
             </div>
         </nav>
@@ -71,7 +93,7 @@
                 <!-- MENU -->
                 <nav class="menu">
                     <ul class="flex jc-center wrap">
-                        <li>IN EVIDENZA <div class="underline"></div></li>
+                        <li>IN EVIDENZA <div class="underline-50"></div></li>
                         <li>PODCAST</li>
                         <li>CLASSIFICHE</li>
                         <li>GENERI E MOOD</li>

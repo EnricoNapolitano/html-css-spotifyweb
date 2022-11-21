@@ -2,9 +2,41 @@
 @media screen and (min-width: 576px) {
     /* SIDEBAR */
     .sidebar {        
-        flex: 0 0 100px;
+        flex: 0 0 230px;
     }
-    .sidebar .icon > .playlist {
+    .sidebar h4, .sidebar h3 {
+        display: block;
+    }
+    .sidebar .icon {
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+    .logo a:first-child {
+        display: none;
+    }
+    .logo a:last-child {
+        display: block;
+    }
+    .sidebar .icon .logo {
+        width: 170px;
+        margin-bottom: 20px;
+    }
+    .sidebar .icon .songs-list {
+        display: block;
+        margin-top: 20px;
+    }
+    .sidebar li .plus {
+        font-size: 25px;
+        flex: 0 0 40px;
+        color: black;
+        height: 40px;
+        background-color: var(--custom-grey);
+    }
+    .sidebar .download p {
+        display: block;
+    }
+    /* UI UTILS */
+    .underline-190 {
         display: block;
     }
 }

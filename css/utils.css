@@ -1,13 +1,3 @@
-/*! CSS RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Montserrat', sans-serif;
-}
-html {
-    scroll-behavior: smooth;
-}
 /*? UTILS */
 /* BORDERS */
 .brd {
@@ -18,6 +8,12 @@ html {
     overflow: hidden;
 }
 /* LAYOUT */
+.white {
+    color:white;
+}
+.mt-10 {
+    margin-top: 10px;
+}
 .mr-30 {
     margin-right: 30px;
 }
@@ -26,6 +22,9 @@ html {
 }
 .mb-50 {
     margin-bottom: 50px;
+}
+.ml-10 {
+    margin-left: 10px;
 }
 .flex {
     display: flex;
@@ -62,8 +61,14 @@ html {
     border: 1px solid white;
     border-radius: 40px;
 }
-.underline {
+.underline-50 {
     border: 2px solid var(--custom-green);
     width: 50px;
     margin: 5px auto;
+}
+.underline-190 {
+    display: none;
+    border: 1px solid var(--custom-grey);
+    width: 190px;
+    margin: 10px auto 0;
 }
