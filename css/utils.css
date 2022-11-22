@@ -147,6 +147,14 @@ main li > a:hover {
 .sidebar a:hover,
 .sidebar p:hover {
     color: white;
+    opacity:1;
+}
+li:first-child:hover .plus{
+    background-color: white;
+}
+.sidebar li:first-child:hover p{
+    color: white;
+    opacity: 1;
 }
 .playlist figure {
     position: relative;
