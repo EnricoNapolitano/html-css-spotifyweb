@@ -137,7 +137,7 @@
     width: 30px;
 }
 
-/* EFFECTS */
+/* HOVER EFFECTS */
 .btn:hover {
     transform: scale(1.1);
 }
@@ -165,4 +165,32 @@ main li > a:hover {
 .playlist figure:hover .hover-play{
     display: flex;
     cursor:pointer;
+}
+.song-name:hover p {
+    text-decoration: underline;
+    opacity: 1;
+}
+.song-info .icon i:hover {
+    color:white;
+}
+.song-command i.fa-circle-play:hover {
+    transform: scale(1.2);
+}
+.bar:hover .inside{
+    background-color: var(--custom-green);
+}
+.time-cursor {
+    display: none;
+    background-color: var(--custom-green);
+    border: 4px solid white;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top:50%;
+    right:0;
+    transform: translate(50%, -50%);
+}
+.bar:hover .time-cursor{
+    display: block;
 }
