@@ -55,6 +55,7 @@ section > div:first-child {
     color: var(--custom-grey);
     height: calc(100vh - 80px);
     flex: 0 0 50px;
+    overflow: hidden;
 }
 .sidebar h4, .sidebar h3 {
     display: none;
@@ -93,6 +94,13 @@ section > div:first-child {
     background-color: var(--custom-grey);
     width: 35px;
     height: 35px;
+}
+/* OVERFLOW SIDEBAR*/
+.sidebar .top.icon {
+    overflow: hidden;
+}
+.sidebar .songs-list {
+    overflow: auto;
 }
 /** MAIN */
 .content-wrap {
