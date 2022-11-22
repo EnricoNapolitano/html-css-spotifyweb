@@ -52,6 +52,10 @@
     .playlist > div {
         max-width: calc(100% /4);
     }
+    .playlist h3 {
+        font-size: 12px;
+        word-break: break-word;
+    }
     /** FOOTER */
     .song-info {
         flex: 0 1 250px;
