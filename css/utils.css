@@ -87,11 +87,15 @@
 .ai-stretch {
     align-items: stretch;
 }
+.p-relative {
+    position:relative;
+}
 
 /* UI */
 .btn {
     border: 1px solid white;
     border-radius: 40px;
+    transition: transform 0.2s ease;
 }
 .underline-50 {
     border: 2px solid var(--custom-green);
@@ -131,4 +135,34 @@
 }
 .bar.inside.volume {
     width: 30px;
+}
+
+/* EFFECTS */
+.btn:hover {
+    transform: scale(1.1);
+}
+main li > a:hover {
+    opacity: 1;
+}
+.sidebar a:hover,
+.sidebar p:hover {
+    color: white;
+}
+.playlist figure {
+    position: relative;
+}
+.hover-play {
+    background-color: rgba(0,0,0,0.6);
+    margin-bottom: 10px;
+    font-size: 50px;
+    position:absolute;
+    width: 100%;
+    top:0;
+    bottom:0;
+
+    display:none;
+}
+.playlist figure:hover .hover-play{
+    display: flex;
+    cursor:pointer;
 }
