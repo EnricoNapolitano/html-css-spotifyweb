@@ -211,6 +211,11 @@ footer p {
 footer img {
     width: 100%;
 }
+.song-info,
+.song-command, 
+.song-volume {
+    cursor: pointer;
+}
 footer .song-command i {
     font-size: 15px;
 }
