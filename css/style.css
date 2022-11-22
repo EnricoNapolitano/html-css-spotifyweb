@@ -119,6 +119,7 @@ section > div:first-child {
 .sidebar .songs-list {
     overflow: auto;
 }
+
 /** MAIN */
 .content-wrap {
     flex-basis: 100%;
@@ -135,6 +136,7 @@ main a {
     position: sticky;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 
 /* CONTENT OVERFLOW */
@@ -156,11 +158,6 @@ main a {
     font-size: 13px;
     padding: 0 12px 20px;
 }
-
-/* PLAYLIST */
-/* .playlist {
-    margin: 0 -15px;
-} */
 .playlist > div {
     max-width: calc(100% /2);
     padding: 0 15px;

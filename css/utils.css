@@ -87,9 +87,6 @@
 .ai-stretch {
     align-items: stretch;
 }
-.p-relative {
-    position:relative;
-}
 
 /* UI */
 .btn {
