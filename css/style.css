@@ -9,6 +9,7 @@ html {
     scroll-behavior: smooth;
     overflow: hidden;
 }
+
 /* ? CUSTOM PROPRIERTIES */
 /* COLOR PALETTE */
 :root {
@@ -19,6 +20,7 @@ html {
     --custom-bar-grey: #c1c1c1;
     --custom-green: #adff2f;
 }
+
 /** GENERICS */
 body {
     color: white;
@@ -49,6 +51,7 @@ ul {
 section > div:first-child {
     padding: 30px 0;
 }
+
 /** SIDEBAR */
 .sidebar {
     background-color: black;
@@ -95,6 +98,7 @@ section > div:first-child {
     width: 35px;
     height: 35px;
 }
+
 /* OVERFLOW SIDEBAR*/
 .sidebar .top.icon {
     overflow: hidden;
@@ -107,7 +111,8 @@ section > div:first-child {
     flex-basis: 100%;
     max-height: 100vh;
 }
-/* HEADER */
+
+/** HEADER */
 .main-header {
     background-color: rgba(0,0,0,0.3);
     height: 90px;
@@ -115,18 +120,21 @@ section > div:first-child {
     top: 0;
     right: 0;
 }
+
 /* SECTION CONTENT */
 section.content {
     padding: 20px 20px 50px;
     height: calc(100vh - 170px);
     overflow: auto;
 }
+
 /* MENU */
 .menu li {
     font-weight: bold;
     font-size: 13px;
     padding: 0 12px 20px;
 }
+
 /* PLAYLIST */
 .playlist {
     margin: 0 -15px;
@@ -148,14 +156,19 @@ section.content {
 .popoular.playlist img {
     padding-bottom: 0;
 }
+
 /** FOOTER */
 footer {
     background-color: var(--custom-dark-grey);
     height: 90px;
 }
 footer .col {
-    width: calc(100% / 3)
+    width: 230px;
 }
+footer .col.center {
+    width: 50%;
+}
+
 /* SONG INFO */
 .song-info {
     padding-left: 5px;
@@ -168,6 +181,7 @@ footer .col {
     width: 50px;
     height: 50px;
 }
+
 /* SONG COMMAND */
 footer span {
     font-size: 10px;

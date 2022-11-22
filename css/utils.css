@@ -7,6 +7,7 @@
     border-radius: 50%;
     overflow: hidden;
 }
+
 /* LAYOUT */
 .white {
     color:white;
@@ -68,6 +69,7 @@
 .ai-stretch {
     align-items: stretch;
 }
+
 /* UI */
 .btn {
     border: 1px solid white;

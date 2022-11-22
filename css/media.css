@@ -35,11 +35,6 @@
     .sidebar .download p {
         display: block;
     }
-    /** FOOTER */
-    /* SONG INFO */
-    .song-info .content {
-        width: 180px;
-    }
     /* UI UTILS */
     .underline-170 {
         display: block;
@@ -48,7 +43,7 @@
 
 /** MD SCREEN */
 @media screen and (min-width: 768px) {
-    /* PLAYLISTC */
+    /* PLAYLIST */
     .playlist > div {
         max-width: calc(100% /4);
     }
@@ -57,9 +52,6 @@
         word-break: break-word;
     }
     /** FOOTER */
-    .song-info {
-        flex: 0 1 250px;
-    }
     .song-info .icon i:first-child {
         padding-right: 10px;
     }
@@ -71,7 +63,7 @@
 
 /** L SCREEN */
 @media screen and (min-width: 992px) {
-    /* PLAYLISTC */
+    /* PLAYLIST */
     .playlist > div {
         max-width: calc(100% /6);
     }
