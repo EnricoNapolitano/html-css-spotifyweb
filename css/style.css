@@ -114,17 +114,16 @@ section > div:first-child {
 
 /** HEADER */
 .main-header {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.6);
     height: 90px;
     position: sticky;
     top: 0;
     right: 0;
 }
 
-/* SECTION CONTENT */
-section.content {
-    padding: 20px 20px 50px;
-    height: calc(100vh - 170px);
+/* CONTENT OVERFLOW */
+.content-overflow {
+    height: calc(100vh - 80px);
     overflow: auto;
 }
 
@@ -136,9 +135,9 @@ section.content {
 }
 
 /* PLAYLIST */
-.playlist {
+/* .playlist {
     margin: 0 -15px;
-}
+} */
 .playlist > div {
     max-width: calc(100% /2);
     padding: 0 15px;

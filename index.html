@@ -87,14 +87,14 @@
         </nav>
         <!--* MAIN: COLUMN RIGHT -->
         <main class="content-wrap">
-            <!-- HEADER -->
-            <header class="main-header flex jc-end ai-center">
-                <div class="btn mr-30"><a href="#">Effetta l'upgrade</a></div>
-            </header>
             <!-- CONTENT -->
-            <section class="content">
+            <div class="content-overflow">
+                <!-- HEADER -->
+                <header class="main-header flex jc-end ai-center">
+                    <div class="btn mr-30"><a href="#">Effetta l'upgrade</a></div>
+                </header>
                 <!-- MENU -->
-                <nav class="menu">
+                <nav class="menu pt-20">
                     <ul class="flex jc-center wrap">
                         <li>IN EVIDENZA <div class="underline-50"></div></li>
                         <li>PODCAST</li>
@@ -107,7 +107,7 @@
                 <!-- RECENT MUSIC -->
                 <section id="recent-music">
                   <div>
-                      <h2>Recently played</h2>
+                      <h2 class="pl-15">Recently played</h2>
                   </div>
                   <div class="recent playlist flex wrap">
                       <div>
@@ -144,7 +144,7 @@
                 </section>
                 <!-- SUGGESTED MUSIC -->
                 <section id="suggested-music">
-                    <div>
+                    <div class="ml-15">
                         <h2>Creato per John Doe</h2>
                         <p>Più ascolti, più accurati saranno i suggerimenti.</p>
                     </div>
@@ -159,8 +159,9 @@
                         </div>
                     </div>
                 </section>
-                <section id="popoular-music">
-                    <div>
+                <!-- POPOULAR MUSIC -->
+                <section id="popoular-music" class="pb-50">
+                    <div class="ml-15">
                         <h2>Artisti più popolari</h2>
                         <p>Più ascolti, più accurati saranno i suggerimenti.</p>
                     </div>
@@ -179,7 +180,7 @@
                         </div>
                     </div>
                 </section>
-            </section>
+            </div>
         </main>
     </div>
     <footer class="flex jc-btwn ai-center">
