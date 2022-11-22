@@ -76,3 +76,13 @@
         width: 85%;
     }
 }
+/** BONUS HEIGHT */
+@media screen and (max-height: 245px) {
+    footer {
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+}
