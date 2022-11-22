@@ -63,6 +63,12 @@ section > div:first-child {
 .sidebar h4, .sidebar h3 {
     display: none;
 }
+.sidebar a {
+    color: var(--custom-grey);
+}
+.sidebar a.home {
+    color: white;
+}
 .sidebar .icon {
     align-items: center;
 }
@@ -82,6 +88,7 @@ section > div:first-child {
 }
 .sidebar .songs-list li {
     padding: 8px 0;
+    cursor: pointer
 }
 .sidebar .download p{
     display: none;
@@ -97,6 +104,9 @@ section > div:first-child {
     background-color: var(--custom-grey);
     width: 35px;
     height: 35px;
+}
+.bottom.icon h3 > a {
+    color: white;
 }
 
 /* OVERFLOW SIDEBAR*/
